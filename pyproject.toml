@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "homework-11-1"
+version = "0.1.0"
+description = ""
+authors = ["our ame <pastaeva98@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.lint.dependencies]
+flake8 = "^7.1.1"
+mypy = "^1.11.2"
+black = "^24.8.0"
+isort = "^5.13.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
